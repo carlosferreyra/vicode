@@ -1,0 +1,27 @@
+[package]
+  name        = "vicode"
+  version     = "0.0.0"
+  edition     = "2024"
+  authors     = ["Carlos Eduardo Ferreyra <eduferreyraok@gmail.com>"]
+  description = "Validated Infrastructure-from-Code (IfC) framework. Define cloud resources directly in your application code with compile-time safety."
+  license     = "MIT"
+  repository  = "https://github.com/carlosferreyra/vicode"
+  keywords    = ["infrastructure", "cloud", "iac", "rust", "devops"]
+  categories  = ["development-tools", "config"]
+  readme      = "README.md"
+
+[lib]
+  name = "vicode"
+  path = "src/lib.rs"
+
+[[bin]]
+  name = "vic"
+  path = "src/main.rs"
+
+[dependencies]
+  clap = { version = "4.0", features = ["derive"] }
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
