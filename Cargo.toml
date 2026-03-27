@@ -1,6 +1,6 @@
 [package]
   name        = "vicode"
-  version     = "0.0.0"
+  version     = "0.0.1"
   edition     = "2024"
   authors     = ["Carlos Eduardo Ferreyra <eduferreyraok@gmail.com>"]
   description = "Validated Infrastructure-from-Code (IfC) framework. Define cloud resources directly in your application code with compile-time safety."
