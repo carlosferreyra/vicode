@@ -7,8 +7,10 @@
 **Validated Infrastructure-from-Code (IfC) framework.** Define cloud resources directly in your
 application code with compile-time safety.
 
-> [!WARNING] This project is currently in the **planning and early development phase**. The features
-> and architecture described below are being actively developed and are subject to change.
+> [!WARNING]
+>
+> This project is currently in the **planning and early development phase**. The features and
+> architecture described below are being actively developed and are subject to change.
 
 ---
 

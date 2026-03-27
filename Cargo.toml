@@ -23,5 +23,8 @@
 
 # The profile that 'dist' will build with
 [profile.dist]
-inherits = "release"
-lto = "thin"
+  inherits = "release"
+  lto      = "thin"
+
+[package.metadata.dist]
+  changelog-job = "git-cliff"
